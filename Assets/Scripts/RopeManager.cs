@@ -13,11 +13,13 @@ public class RopeManager : MonoBehaviour
 
     [SerializeField]
     float partDistance = 0.1f;
+    [SerializeField]
+    Transform PlayerTransform;
 
     public void AddNewRope(Collider other, Color clr)
     {
         Color lastColor = RopeParts[RopeParts.Count - 1].GetComponent<Renderer>().material.color;
-        float colorLerp = .4f;        
+        float colorLerp = .4f;
 
         for (int i = 0; i <= addHair; i++)
         {
@@ -39,7 +41,7 @@ public class RopeManager : MonoBehaviour
 
                 if (lastColor != clr && i < 3)
                 {
-                    tmp.GetComponent<Renderer>().material.color 
+                    tmp.GetComponent<Renderer>().material.color
                         = Color.Lerp(tmp.GetComponent<Renderer>().material.color, lastColor, colorLerp);
                     colorLerp += .2f;
                 }
@@ -48,7 +50,8 @@ public class RopeManager : MonoBehaviour
                     tmp.GetComponent<Renderer>().material.color = clr;
                 }
 
-                tmp.GetComponent<CharacterJoint>().connectedBody = RopeParts[RopeParts.Count - 1].GetComponent<Rigidbody>();
+                //tmp.GetComponent<CharacterJoint>().connectedBody = RopeParts[RopeParts.Count - 1].GetComponent<Rigidbody>();
+                tmp.GetComponent<DistanceJoint3D>().ConnectedRigidbody = RopeParts[RopeParts.Count - 1].transform;
 
                 RopeParts.Add(tmp);
             }
@@ -57,6 +60,8 @@ public class RopeManager : MonoBehaviour
                 RopeParts[RopeParts.Count - 1].GetComponent<Rigidbody>().drag = 35f;
             }
         }
+
+        //LastFixedPoint.GetComponent<CharacterJoint>().connectedBody = RopeParts[RopeParts.Count - 1].GetComponent<Rigidbody>();
     }
 
     public IEnumerator RemoveRope(int ropeLength)
@@ -68,5 +73,6 @@ public class RopeManager : MonoBehaviour
             ropeLength--;
             yield return new WaitForSeconds(.1f);
         }
+        //LastFixedPoint.GetComponent<CharacterJoint>().connectedBody = RopeParts[RopeParts.Count - 1].GetComponent<Rigidbody>();
     }
 }
