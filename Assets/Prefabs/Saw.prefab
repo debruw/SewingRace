@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 994456824659707703}
   - component: {fileID: 6086695492086394489}
   - component: {fileID: 637899119639408395}
+  - component: {fileID: 4537846661423439862}
   m_Layer: 0
   m_Name: SawRound
   m_TagString: Danger
@@ -132,6 +133,23 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &4537846661423439862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 637899119639408394}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6757b231cedd544c583ef8aeaf773b2a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  material: {fileID: 0}
+  phase: 0
+  thickness: 0
+  m_SourceCollider: {fileID: 994456824659707703}
+  m_DistanceField: {fileID: 0}
 --- !u!1 &6940328364525799062
 GameObject:
   m_ObjectHideFlags: 0
@@ -146,7 +164,7 @@ GameObject:
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
+  m_StaticEditorFlags: 18
   m_IsActive: 1
 --- !u!4 &353137042061204380
 Transform:

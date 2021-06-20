@@ -25,6 +25,12 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Floats:
     - _Fill: 0
+    - _Glossiness: 0.5
+    - _Metallic: 0
+    - _Middle: 1
     - _Speed: 0
     m_Colors:
-    - _Color: {r: 1, g: 0, b: 0, a: 1}
+    - _Color: {r: 0.9725491, g: 0.79215693, b: 0.25490198, a: 1}
+    - _ColorBot: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorMid: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorTop: {r: 1, g: 1, b: 1, a: 1}

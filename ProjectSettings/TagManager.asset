@@ -5,13 +5,13 @@ TagManager:
   serializedVersion: 2
   tags:
   - Hair
-  - NewHair
   - Saw
   - endGame
   - Line
   - NewYarn
-  - Danger
   - Ground
+  - Danger
+  - IsScaling
   layers:
   - Default
   - TransparentFX

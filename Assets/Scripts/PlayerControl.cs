@@ -1,59 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Obi;
+using DG.Tweening;
 
 public class PlayerControl : MonoBehaviour
 {
     [SerializeField] float xSpeed, zSpeed;
-
-    Vector3 translation;
-
-    // Update is called once per frame
-    //    void FixedUpdate()
-    //    {
-    //#if UNITY_EDITOR
-    //        if (Input.GetMouseButton(0))
-    //        {
-    //            translation = new Vector3(Input.GetAxis("Mouse X") * xSpeed, 0, zSpeed) * Time.deltaTime;
-
-    //            transform.Translate(translation, Space.World);
-    //        }
-
-    //#elif UNITY_IOS || UNITY_ANDROID
-
-    //        if (Input.touchCount > 0)
-    //        {
-    //            touch = Input.GetTouch(0);
-    //            if (touch.phase == TouchPhase.Moved)
-    //            {
-    //                transform.localPosition = new Vector3(Mathf.Clamp(transform.localPosition.x + touch.deltaPosition.x * 0.01f, -3, 3), transform.localPosition.y, transform.localPosition.z);
-    //            }
-    //            else if (touch.phase == TouchPhase.Began)
-    //            {
-    //                //save began touch 2d point
-    //                firstPressPos = new Vector2(Input.mousePosition.x, Input.mousePosition.y);
-    //            }
-    //            transform.position += new Vector3(0, 0, Time.deltaTime * ZSpeed);
-    //        }
-
-    //#endif 
-
-    //        // Don't go outside of the map
-    //        Vector3 pos = transform.position;
-
-    //        if (transform.position.x < -2f)
-    //        {
-    //            pos.x = -2f;
-    //        }
-    //        else if (transform.position.x > 2f)
-    //        {
-    //            pos.x = 2f;
-    //        }
-
-    //        transform.position = pos;
-
-    //        CheckGround();
-    //    }
 
     public CharacterController controller;
 
@@ -69,10 +22,18 @@ public class PlayerControl : MonoBehaviour
 
     bool isGrounded;
     public Animator m_animator;
+    Touch touch;
+    public Transform FinishTransform;
+    float totalRoadLength;
+
+    private void Start()
+    {
+        totalRoadLength = FinishTransform.position.z - transform.position.z;
+    }
 
     private void Update()
     {
-        if (!GameManager.Instance.isStarted || GameManager.Instance.isFinished)
+        if (!GameManager.Instance.isGameStarted || GameManager.Instance.isGameOver)
         {
             return;
         }
@@ -82,13 +43,72 @@ public class PlayerControl : MonoBehaviour
         {
             velocity.y = -2f;
         }
-
+#if UNITY_EDITOR
         if (Input.GetMouseButton(0))
         {
             Vector3 move = Vector3.right * Input.GetAxis("Mouse X") * xSpeed + Vector3.forward * zSpeed;
 
+            if (GameManager.Instance.isScalingRope)
+            {
+                move.x = 0;
+            }
             controller.Move(move * speed * Time.deltaTime);
+
+            if (GameManager.Instance.isScalingRope)
+            {
+                foreach (ObiRopeCursor item in GameManager.Instance.obiRopeManager.cursors)
+                {
+                    item.ChangeLength(item.GetComponent<ObiRope>().restLength - .01f);
+                }
+                if (GameManager.Instance.obiRopeManager.obiRopes[0].restLength <= 0)
+                {
+                    //WIN
+                    StartCoroutine(GameManager.Instance.WaitAndGameWin());
+                    //Close rope, yarn and sticks
+                    GameManager.Instance.obiRopeManager.CloseYarnThings();
+                    m_animator.SetTrigger("Win");
+                }
+            }
         }
+
+#elif UNITY_IOS || UNITY_ANDROID
+
+        if (Input.touchCount > 0)
+        {
+            touch = Input.GetTouch(0);
+
+            Vector3 move = Vector3.forward * zSpeed;
+
+            if (touch.phase == TouchPhase.Moved)
+            {
+                move += Vector3.right * Input.GetAxis("Mouse X") * xSpeed;
+            }
+
+            if (GameManager.Instance.isScalingRope)
+            {
+                move.x = 0;
+            }
+            controller.Move(move * speed * Time.deltaTime);
+
+            if (GameManager.Instance.isScalingRope)
+            {
+                foreach (ObiRopeCursor item in GameManager.Instance.obiRopeManager.cursors)
+                {
+                    item.ChangeLength(item.GetComponent<ObiRope>().restLength - .01f);
+                }
+                if (GameManager.Instance.obiRopeManager.obiRopes[0].restLength <= 0)
+                {
+                    GameManager.Instance.isGameOver = true;
+                    //WIN
+                    StartCoroutine(GameManager.Instance.WaitAndGameWin());
+                    //Close rope, yarn and sticks
+                    GameManager.Instance.obiRopeManager.CloseYarnThings();
+                    m_animator.SetTrigger("Win");
+                }
+            }
+        }
+#endif
+
         if (Input.GetMouseButtonDown(0))
         {
             m_animator.SetBool("Walking", true);
@@ -98,51 +118,46 @@ public class PlayerControl : MonoBehaviour
             m_animator.SetBool("Walking", false);
         }
 
+        if (transform.position.y < -3)
+        {
+            //Lose
+            StartCoroutine(GameManager.Instance.WaitAndGameLose());
+            //Close rope, yarn and sticks
+            GameManager.Instance.obiRopeManager.CloseYarnThings();
+            m_animator.SetTrigger("Lose");
+        }
+
         velocity.y += gravity * Time.deltaTime;
 
         controller.Move(velocity * Time.deltaTime);
-    }
 
-    public void CheckGround()
-    {
-        RaycastHit hit;
-        // Does the ray intersect any objects excluding the player layer
-        if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.down), out hit, 3f))
-        {
-
-        }
-        else
-        {
-            Debug.Log("Did not Hit");
-            GetComponent<Rigidbody>().isKinematic = false;
-            GetComponent<Rigidbody>().useGravity = true;
-        }
+        GameManager.Instance.RoadSlider.value = (totalRoadLength - (FinishTransform.position.z - transform.position.z)) / totalRoadLength;
     }
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.tag == "endGame")
+        if (other.CompareTag("NewYarn"))
         {
             Destroy(other.gameObject);
-            //animator.SetBool("endGame", true);
-            //GameManager.Instance.endGame = true;
-            //ropeSpawn.Delete();
-        }
-        else if (other.CompareTag("NewYarn"))
-        {
-            Destroy(other.gameObject);
-            GameManager.Instance.ropeManager.AddNewRope(other, other.GetComponent<NewYarn>().color);
+            GameManager.Instance.obiRopeManager.AddNewRope(other.GetComponent<NewYarn>().color);
         }
         else if (other.CompareTag("Line"))
         {
-            other.GetComponent<Line>().playerControl = this;
-            other.GetComponent<Line>().OpenNet();
+            other.GetComponent<Line>().OpenNet(this);
+        }
+        else if (other.CompareTag("IsScaling"))
+        {
+            GameManager.Instance.isScalingRope = true;
+            transform.DOMoveX(0, .2f);
         }
         else if (other.CompareTag("Finish"))
         {
-            GameManager.Instance.isFinished = true;
-            GameManager.Instance.TapToTryAgainButton.SetActive(true);
+            GameManager.Instance.isGameOver = true;
+            StartCoroutine(GameManager.Instance.WaitAndGameWin());
             m_animator.SetBool("Walking", false);
+            //Close rope, yarn and sticks
+            GameManager.Instance.obiRopeManager.CloseYarnThings();
+            m_animator.SetTrigger("Win");
         }
     }
 }

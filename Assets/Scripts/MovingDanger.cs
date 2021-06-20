@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Obi;
 
 public class MovingDanger : MonoBehaviour
 {
@@ -23,32 +24,5 @@ public class MovingDanger : MonoBehaviour
             }
         }
         transform.position = Vector3.MoveTowards(transform.position, waypoints[current].position, Time.deltaTime * speed);
-    }
-
-    private void OnTriggerEnter(Collider other)
-    {
-        if (other.gameObject.tag == "Hair")
-        {
-            parent = other.gameObject.transform.parent;
-            int hitObject = int.Parse(other.name);
-
-            for (int i = hitObject; i < parent.childCount; i++)
-            {
-                if (i == hitObject)
-                {
-                    //Give mass
-                    parent.transform.GetChild(i).GetComponent<Rigidbody>().velocity = Vector3.down;
-                    parent.transform.GetChild(i).GetComponent<CharacterJoint>().connectedBody = null;
-                }
-                else
-                {
-                    //Destroy cut rope
-                    GameObject child = parent.GetChild(i).gameObject;
-                    GameManager.Instance.ropeManager.RopeParts.Remove(child);
-                    Destroy(child, .5f);
-                }
-            }
-
-        }
     }
 }

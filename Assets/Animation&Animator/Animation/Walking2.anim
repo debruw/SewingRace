@@ -114,6 +114,22 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: -0.86450326, y: 0.061848413, z: 0.027462654, w: 0.49805093}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: -0.13142824, y: -0.39657575, z: 0.25313348, w: -0.19311903}
@@ -1069,6 +1085,22 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0.00038292547, y: -0.069119245, z: -0.0000003273908, w: 0.99760836}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: -0.78218305, y: 0.15287164, z: -0.025469989, w: 0.6034659}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0.51409006, y: -0.1490861, z: 0.443235, w: 0.72374934}
@@ -1853,6 +1885,22 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0, y: 0, z: 0, w: 1}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: -0.03497728, y: -0.83850926, z: 0.5433745, w: 0.02056425}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0.16442189, y: -0.016291935, z: -0.0077486034, w: -0.17604479}
@@ -2088,203 +2136,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.08414873, y: 0.0027812002, z: -0.0037873476, w: 0.9964421}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.012554227, y: -0.030968802, z: -0.00503341, w: -0.0009934107}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 0.6
-        value: {x: -0.086718366, y: 0.0021711092, z: -0.00065952644, w: 0.99623024}
-        inSlope: {x: -0.016490618, y: 0.021762291, z: 0.020649554, w: -0.0015894572}
-        outSlope: {x: -0.016497027, y: 0.021762757, z: 0.020644156, w: -0.001384366}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1166667
-        value: {x: -0.082706936, y: 0.001663743, z: 0.0010410511, w: 0.996572}
-        inSlope: {x: 0.019366704, y: -0.025974888, z: -0.0009713544, w: 0.0017304575}
-        outSlope: {x: 0.019401312, y: -0.025908928, z: -0.001009088, w: 0.0014305115}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.08414888, y: 0.0027812072, z: -0.0037873224, w: 0.9964421}
-        inSlope: {x: -0.013828278, y: -0.026288442, z: -0.0068321824, w: -0.0009536743}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.10488826, y: 0.0034562664, z: -0.0031502203, w: 0.9944731}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.012616316, y: -0.02937663, z: -0.010955069, w: -0.0012914339}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 0.6
-        value: {x: -0.10745271, y: 0.002250714, z: -0.00020039661, w: 0.9942076}
-        inSlope: {x: -0.016440947, y: 0.017305912, z: 0.024511244, w: -0.0016887982}
-        outSlope: {x: -0.016453767, y: 0.01730908, z: 0.024506196, w: -0.0018458213}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1166667
-        value: {x: -0.10344986, y: 0.0014229167, z: 0.001369394, w: 0.9946327}
-        inSlope: {x: 0.019352283, y: -0.025328219, z: -0.0059910333, w: 0.002076549}
-        outSlope: {x: 0.019282103, y: -0.02525514, z: -0.0060182065, w: 0.0019073486}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.10488873, y: 0.0034563253, z: -0.0031502277, w: 0.99447304}
-        inSlope: {x: -0.013798475, y: -0.02445653, z: -0.011808239, w: -0.0011920929}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.072082885, y: 0.0035764289, z: -0.0030131913, w: 0.99738765}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.0126038985, y: -0.028883804, z: -0.01208003, w: 0.0010927517}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 0.6
-        value: {x: 0.069511846, y: 0.0022565238, z: -0.00011255547, w: 0.99757856}
-        inSlope: {x: -0.016552705, y: 0.016327636, z: 0.025147479, w: 0.0011920929}
-        outSlope: {x: -0.016540289, y: 0.016325785, z: 0.025139261, w: 0.0011536384}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1166667
-        value: {x: 0.07352795, y: 0.001368347, z: 0.0014237905, w: 0.99729115}
-        inSlope: {x: 0.019366704, y: -0.025104702, z: -0.0069765826, w: -0.0014997298}
-        outSlope: {x: 0.019282103, y: -0.025029294, z: -0.0070026144, w: -0.0011920929}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: 0.072083674, y: 0.003576386, z: -0.0030131857, w: 0.9973876}
-        inSlope: {x: -0.013828278, y: -0.023965724, z: -0.012751669, w: 0.00071525574}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.027396448, y: 0.031964984, z: -0.70886695, w: 0.70408475}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0.012308979, y: -0.030199686, z: -0.0067551928, w: -0.005861123}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 0.6
-        value: {x: 0.026281608, y: 0.029437143, z: -0.7068074, w: 0.7063046}
-        inSlope: {x: -0.025117768, y: 0.0016981114, z: 0.01579523, w: 0.016887981}
-        outSlope: {x: -0.025120474, y: 0.0016908011, z: 0.016035574, w: 0.016727755}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.1166667
-        value: {x: 0.02963304, y: 0.03177416, z: -0.7055421, w: 0.7073349}
-        inSlope: {x: 0.031901706, y: -0.0044415076, z: -0.0024226406, w: -0.003460915}
-        outSlope: {x: 0.031791627, y: -0.004440546, z: -0.0021457672, w: -0.0035762787}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: 0.02739624, y: 0.03196478, z: -0.7088668, w: 0.7040849}
-        inSlope: {x: 0.008031726, y: -0.027626753, z: -0.007390976, w: -0.00667572}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.15663981, y: 0.047277894, z: 0.2693227, w: 0.949049}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: 0.15663981, y: 0.047277894, z: 0.2693227, w: 0.949049}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: {x: 0.11774297, y: -0.7047167, z: 0.11041376, w: 0.6908833}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: -0.11923638, y: -0.090057194, z: 0.10356984, w: -0.087781385}
@@ -2337,17 +2188,8 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.21193936, y: 0.013923571, z: 0.043956928, w: 0.97619456}
+        value: {x: -0.63307035, y: 0.24382369, z: -0.39495784, w: 0.61950004}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.00045793812, y: -0.0000183993, z: 0.000016354932, w: 0.00008722631}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.0021205556, y: 0.00418522, z: 0.04592092, w: 0.99893403}
-        inSlope: {x: -0.0004773596, y: -0.000026236039, z: -0.000010903289, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -2356,23 +2198,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.2127232, y: 0.011417948, z: 0.044508677, w: 0.9760315}
+        value: {x: 0.44850504, y: 0.66333777, z: 0.3528251, w: 0.48408765}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.0004688414, y: -0.000015673477, z: 0.000013629111, w: 0.00008722631}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.0013260143, y: 0.001613452, z: 0.045923084, w: 0.9989428}
-        inSlope: {x: -0.00040350686, y: -0.000026150856, z: -0.0000054516445, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -2381,23 +2214,14 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.21359631, y: 0.010146056, z: 0.04479327, w: 0.9758418}
+        value: {x: 0.3341837, y: 0.5584618, z: 0.27060598, w: 0.70937586}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.0004688414, y: -0.000017717844, z: 0.000013629111, w: 0.00008722631}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.00042938456, y: 0.00031536387, z: 0.045925356, w: 0.9989447}
-        inSlope: {x: -0.00047535784, y: -0.00002368058, z: -0.000008177466, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
         weightedMode: 0
@@ -2406,38 +2230,13 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
   - curve:
       serializedVersion: 2
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.20922945, y: 0.010134831, z: 0.044817023, w: 0.97678643}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: -0.0004688414, y: -0.000016354932, z: 0.000013629111, w: 0.00008722631}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      - serializedVersion: 3
-        time: 1.3666667
-        value: {x: -0.004889841, y: 0.00030061975, z: 0.04594751, w: 0.9989319}
-        inSlope: {x: -0.0004937145, y: -0.000030090521, z: -0.000008177466, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 0, w: 1}
+        value: {x: 0.14458613, y: 0.090653494, z: -0.18152335, w: 0.96846586}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -2447,39 +2246,7 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    path: Girl_root/Girl_Hips
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.00038292547, y: -0.069119245, z: -0.0000003273908, w: 0.99760836}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0, y: 0, z: 0, w: 1}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -2677,7 +2444,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.1551717, y: -0.7845847, z: 0.5568394, w: 0.22422893}
+        value: {x: -0.028385095, y: -0.899628, z: 0.42477208, w: 0.09712146}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -2693,7 +2460,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: -0.019449165, y: 0.004485502, z: 0.0907552, w: 0.99567324}
+        value: {x: -0.016806638, y: 0.010762561, z: 0.42013776, w: 0.90724087}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -2709,7 +2476,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: {x: 0.029587528, y: 0.0025683783, z: 0.0026411482, w: 0.9995554}
+        value: {x: 0.029217375, y: -0.005318734, z: 0.2660361, w: 0.96350545}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
         tangentMode: 0
@@ -2768,6 +2535,178 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_breast_0/Girl_L_breast_1/Girl_L_breast_2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.08414873, y: 0.0027812002, z: -0.0037873476, w: 0.9964421}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.012554227, y: -0.030968802, z: -0.00503341, w: -0.0009934107}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.6
+        value: {x: -0.086718366, y: 0.0021711092, z: -0.00065952644, w: 0.99623024}
+        inSlope: {x: -0.016490618, y: 0.021762291, z: 0.020649554, w: -0.0015894572}
+        outSlope: {x: -0.016497027, y: 0.021762757, z: 0.020644156, w: -0.001384366}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.1166667
+        value: {x: -0.082706936, y: 0.001663743, z: 0.0010410511, w: 0.996572}
+        inSlope: {x: 0.019366704, y: -0.025974888, z: -0.0009713544, w: 0.0017304575}
+        outSlope: {x: 0.019401312, y: -0.025908928, z: -0.001009088, w: 0.0014305115}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.3666667
+        value: {x: -0.08414888, y: 0.0027812072, z: -0.0037873224, w: 0.9964421}
+        inSlope: {x: -0.013828278, y: -0.026288442, z: -0.0068321824, w: -0.0009536743}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.10488826, y: 0.0034562664, z: -0.0031502203, w: 0.9944731}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.012616316, y: -0.02937663, z: -0.010955069, w: -0.0012914339}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.6
+        value: {x: -0.10745271, y: 0.002250714, z: -0.00020039661, w: 0.9942076}
+        inSlope: {x: -0.016440947, y: 0.017305912, z: 0.024511244, w: -0.0016887982}
+        outSlope: {x: -0.016453767, y: 0.01730908, z: 0.024506196, w: -0.0018458213}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.1166667
+        value: {x: -0.10344986, y: 0.0014229167, z: 0.001369394, w: 0.9946327}
+        inSlope: {x: 0.019352283, y: -0.025328219, z: -0.0059910333, w: 0.002076549}
+        outSlope: {x: 0.019282103, y: -0.02525514, z: -0.0060182065, w: 0.0019073486}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.3666667
+        value: {x: -0.10488873, y: 0.0034563253, z: -0.0031502277, w: 0.99447304}
+        inSlope: {x: -0.013798475, y: -0.02445653, z: -0.011808239, w: -0.0011920929}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.072082885, y: 0.0035764289, z: -0.0030131913, w: 0.99738765}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: -0.0126038985, y: -0.028883804, z: -0.01208003, w: 0.0010927517}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.6
+        value: {x: 0.069511846, y: 0.0022565238, z: -0.00011255547, w: 0.99757856}
+        inSlope: {x: -0.016552705, y: 0.016327636, z: 0.025147479, w: 0.0011920929}
+        outSlope: {x: -0.016540289, y: 0.016325785, z: 0.025139261, w: 0.0011536384}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.1166667
+        value: {x: 0.07352795, y: 0.001368347, z: 0.0014237905, w: 0.99729115}
+        inSlope: {x: 0.019366704, y: -0.025104702, z: -0.0069765826, w: -0.0014997298}
+        outSlope: {x: 0.019282103, y: -0.025029294, z: -0.0070026144, w: -0.0011920929}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.3666667
+        value: {x: 0.072083674, y: 0.003576386, z: -0.0030131857, w: 0.9973876}
+        inSlope: {x: -0.013828278, y: -0.023965724, z: -0.012751669, w: 0.00071525574}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.027396448, y: 0.031964984, z: -0.70886695, w: 0.70408475}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0.012308979, y: -0.030199686, z: -0.0067551928, w: -0.005861123}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 0.6
+        value: {x: 0.026281608, y: 0.029437143, z: -0.7068074, w: 0.7063046}
+        inSlope: {x: -0.025117768, y: 0.0016981114, z: 0.01579523, w: 0.016887981}
+        outSlope: {x: -0.025120474, y: 0.0016908011, z: 0.016035574, w: 0.016727755}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.1166667
+        value: {x: 0.02963304, y: 0.03177416, z: -0.7055421, w: 0.7073349}
+        inSlope: {x: 0.031901706, y: -0.0044415076, z: -0.0024226406, w: -0.003460915}
+        outSlope: {x: 0.031791627, y: -0.004440546, z: -0.0021457672, w: -0.0035762787}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      - serializedVersion: 3
+        time: 1.3666667
+        value: {x: 0.02739624, y: 0.03196478, z: -0.7088668, w: 0.7040849}
+        inSlope: {x: 0.008031726, y: -0.027626753, z: -0.007390976, w: -0.00667572}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3413,6 +3352,86 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: -0.10088657, y: 0.88640714, z: -0.24809347, w: 0.37756318}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.5094983, y: -0.317128, z: 0.15214504, w: 0.7852982}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.43744594, y: -0.51608264, z: 0.17588696, w: 0.7150969}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -0.28694156, y: -0.6805244, z: 0.6407384, w: 0.20977439}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.20922945, y: 0.010134831, z: 0.044817023, w: 0.97678643}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: 0.012999027, y: 0.000000023435774, z: -0.000020987058, w: 0.9999155}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -3440,6 +3459,22 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1/Girl_R_HandIndex2/Girl_R_HandIndex3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.21359631, y: 0.010146056, z: 0.04479327, w: 0.9758418}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3477,6 +3512,22 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0.21193936, y: 0.013923571, z: 0.043956928, w: 0.97619456}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: -0.004597058, y: -0.000000064841934, z: -0.00000013469236, w: 0.99998945}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -3509,6 +3560,22 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: {x: 0.2127232, y: 0.011417948, z: 0.044508677, w: 0.9760315}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: {x: -0.023726195, y: -0.000000015184728, z: -0.00000003559586, w: 0.9997185}
         inSlope: {x: 0, y: 0, z: 0, w: 0}
         outSlope: {x: 0, y: 0, z: 0, w: 0}
@@ -3536,6 +3603,22 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1/Girl_R_HandRing2/Girl_R_HandRing3
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 0.15663981, y: 0.047277894, z: 0.2693227, w: 0.949049}
+        inSlope: {x: 0, y: 0, z: 0, w: 0}
+        outSlope: {x: 0, y: 0, z: 0, w: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
   - curve:
       serializedVersion: 2
       m_Curve:
@@ -3648,134 +3731,6 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_knot_0/Girl_knot_1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.63307035, y: 0.24382369, z: -0.39495784, w: 0.61950004}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.44850504, y: 0.66333777, z: 0.3528251, w: 0.48408765}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.14458613, y: 0.090653494, z: -0.18152335, w: 0.96846586}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.10088657, y: 0.88640714, z: -0.24809347, w: 0.37756318}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.5094983, y: -0.317128, z: 0.15214504, w: 0.7852982}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.28694156, y: -0.6805244, z: 0.6407384, w: 0.20977439}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: -0.45291764, y: -0.4415289, z: 0.13098788, w: 0.7633872}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: {x: 0.30514035, y: 0.48483187, z: 0.28646734, w: 0.76796085}
-        inSlope: {x: 0, y: 0, z: 0, w: 0}
-        outSlope: {x: 0, y: 0, z: 0, w: 0}
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-        outWeight: {x: 0.33333334, y: 0.33333334, z: 0.33333334, w: 0.33333334}
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
   m_CompressedRotationCurves: []
   m_EulerCurves: []
   m_PositionCurves:
@@ -4371,6 +4326,54 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     path: Girl_root
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -21, y: 43.9, z: 10.6}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Sphere
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: -18.5, y: 36.4, z: 12.1}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/YarnBall
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: {x: 6.4, y: -4, z: 31.5}
+        inSlope: {x: 0, y: 0, z: 0}
+        outSlope: {x: 0, y: 0, z: 0}
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+        outWeight: {x: 0, y: 0.33333334, z: 0.33333334}
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand/Stick2
   m_ScaleCurves:
   - curve:
       serializedVersion: 2
@@ -4505,6 +4508,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 3138206854
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 3092516430
       attribute: 2
       script: {fileID: 0}
@@ -4533,43 +4543,22 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 3138206854
-      attribute: 2
+      path: 3100531206
+      attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 563103132
-      attribute: 2
+      path: 1671919526
+      attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
-      path: 2242481389
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2862918831
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3411097328
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 2915191180
-      attribute: 2
+      path: 3176586095
+      attribute: 1
       script: {fileID: 0}
       typeID: 4
       customType: 0
@@ -4590,6 +4579,34 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 657399046
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1897263350
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 190191577
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3852321403
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3277435359
       attribute: 2
       script: {fileID: 0}
       typeID: 4
@@ -5002,6 +5019,41 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 1215447469
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1286414438
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3797619266
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 1838818613
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 3411097328
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 711948497
       attribute: 2
       script: {fileID: 0}
@@ -5010,6 +5062,13 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2546337292
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2862918831
       attribute: 2
       script: {fileID: 0}
       typeID: 4
@@ -5030,6 +5089,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 563103132
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 3153030593
       attribute: 2
       script: {fileID: 0}
@@ -5044,6 +5110,13 @@ AnimationClip:
       customType: 0
       isPPtrCurve: 0
     - serializedVersion: 2
+      path: 2242481389
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
       path: 2109704362
       attribute: 2
       script: {fileID: 0}
@@ -5052,6 +5125,13 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 2676024360
+      attribute: 2
+      script: {fileID: 0}
+      typeID: 4
+      customType: 0
+      isPPtrCurve: 0
+    - serializedVersion: 2
+      path: 2915191180
       attribute: 2
       script: {fileID: 0}
       typeID: 4
@@ -5101,62 +5181,6 @@ AnimationClip:
       isPPtrCurve: 0
     - serializedVersion: 2
       path: 404101614
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1897263350
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 190191577
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3277435359
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1215447469
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1286414438
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 1838818613
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3797619266
-      attribute: 2
-      script: {fileID: 0}
-      typeID: 4
-      customType: 0
-      isPPtrCurve: 0
-    - serializedVersion: 2
-      path: 3852321403
       attribute: 2
       script: {fileID: 0}
       typeID: 4
@@ -6981,6 +7005,261 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.x
+    path: Girl_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.y
+    path: Girl_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalScale.z
+    path: Girl_root
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -21
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Sphere
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 43.9
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Sphere
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 10.6
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Sphere
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -18.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/YarnBall
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 36.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/YarnBall
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 12.1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/YarnBall
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 6.4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand/Stick2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -4
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand/Stick2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 31.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 136
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalPosition.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand/Stick2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: 0.0036191419
         inSlope: 0
         outSlope: 0.057936728
@@ -7381,16 +7660,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.01
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.01
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -7400,8 +7670,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalScale.x
-    path: Girl_root
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7409,16 +7679,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.01
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.01
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -7428,8 +7689,8 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalScale.y
-    path: Girl_root
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -7437,16 +7698,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.01
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.01
+        value: 0
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -7456,8 +7708,27 @@ AnimationClip:
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
-    attribute: m_LocalScale.z
-    path: Girl_root
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -11333,6 +11604,82 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0.00038292547
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.069119245
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0000003273908
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.99760836
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: -0.78218305
         inSlope: 0
         outSlope: 0.51409006
@@ -14517,6 +14864,82 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: -0.03497728
         inSlope: 0
         outSlope: 0.16442189
@@ -15505,854 +15928,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.08414873
-        inSlope: 0
-        outSlope: -0.012554227
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.086718366
-        inSlope: -0.016490618
-        outSlope: -0.016497027
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: -0.082706936
-        inSlope: 0.019366704
-        outSlope: 0.019401312
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.08414888
-        inSlope: -0.013828278
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.0027812002
-        inSlope: 0
-        outSlope: -0.030968802
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.0021711092
-        inSlope: 0.021762291
-        outSlope: 0.021762757
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.001663743
-        inSlope: -0.025974888
-        outSlope: -0.025908928
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.0027812072
-        inSlope: -0.026288442
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.0037873476
-        inSlope: 0
-        outSlope: -0.00503341
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.00065952644
-        inSlope: 0.020649554
-        outSlope: 0.020644156
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.0010410511
-        inSlope: -0.0009713544
-        outSlope: -0.001009088
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.0037873224
-        inSlope: -0.0068321824
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.9964421
-        inSlope: 0
-        outSlope: -0.0009934107
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.99623024
-        inSlope: -0.0015894572
-        outSlope: -0.001384366
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.996572
-        inSlope: 0.0017304575
-        outSlope: 0.0014305115
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.9964421
-        inSlope: -0.0009536743
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.10488826
-        inSlope: 0
-        outSlope: -0.012616316
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.10745271
-        inSlope: -0.016440947
-        outSlope: -0.016453767
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: -0.10344986
-        inSlope: 0.019352283
-        outSlope: 0.019282103
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.10488873
-        inSlope: -0.013798475
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.0034562664
-        inSlope: 0
-        outSlope: -0.02937663
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.002250714
-        inSlope: 0.017305912
-        outSlope: 0.01730908
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.0014229167
-        inSlope: -0.025328219
-        outSlope: -0.02525514
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.0034563253
-        inSlope: -0.02445653
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.0031502203
-        inSlope: 0
-        outSlope: -0.010955069
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.00020039661
-        inSlope: 0.024511244
-        outSlope: 0.024506196
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.001369394
-        inSlope: -0.0059910333
-        outSlope: -0.0060182065
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.0031502277
-        inSlope: -0.011808239
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.9944731
-        inSlope: 0
-        outSlope: -0.0012914339
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.9942076
-        inSlope: -0.0016887982
-        outSlope: -0.0018458213
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.9946327
-        inSlope: 0.002076549
-        outSlope: 0.0019073486
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.99447304
-        inSlope: -0.0011920929
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.072082885
-        inSlope: 0
-        outSlope: -0.0126038985
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.069511846
-        inSlope: -0.016552705
-        outSlope: -0.016540289
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.07352795
-        inSlope: 0.019366704
-        outSlope: 0.019282103
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.072083674
-        inSlope: -0.013828278
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.0035764289
-        inSlope: 0
-        outSlope: -0.028883804
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.0022565238
-        inSlope: 0.016327636
-        outSlope: 0.016325785
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.001368347
-        inSlope: -0.025104702
-        outSlope: -0.025029294
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.003576386
-        inSlope: -0.023965724
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.0030131913
-        inSlope: 0
-        outSlope: -0.01208003
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.00011255547
-        inSlope: 0.025147479
-        outSlope: 0.025139261
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.0014237905
-        inSlope: -0.0069765826
-        outSlope: -0.0070026144
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.0030131857
-        inSlope: -0.012751669
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.99738765
-        inSlope: 0
-        outSlope: 0.0010927517
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.99757856
-        inSlope: 0.0011920929
-        outSlope: 0.0011536384
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.99729115
-        inSlope: -0.0014997298
-        outSlope: -0.0011920929
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.9973876
-        inSlope: 0.00071525574
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.027396448
-        inSlope: 0
-        outSlope: 0.012308979
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.026281608
-        inSlope: -0.025117768
-        outSlope: -0.025120474
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.02963304
-        inSlope: 0.031901706
-        outSlope: 0.031791627
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.02739624
-        inSlope: 0.008031726
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.031964984
-        inSlope: 0
-        outSlope: -0.030199686
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.029437143
-        inSlope: 0.0016981114
-        outSlope: 0.0016908011
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.03177416
-        inSlope: -0.0044415076
-        outSlope: -0.004440546
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.03196478
-        inSlope: -0.027626753
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.70886695
-        inSlope: 0
-        outSlope: -0.0067551928
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: -0.7068074
-        inSlope: 0.01579523
-        outSlope: 0.016035574
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: -0.7055421
-        inSlope: -0.0024226406
-        outSlope: -0.0021457672
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.7088668
-        inSlope: -0.007390976
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.70408475
-        inSlope: 0
-        outSlope: -0.005861123
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 0.6
-        value: 0.7063046
-        inSlope: 0.016887981
-        outSlope: 0.016727755
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.1166667
-        value: 0.7073349
-        inSlope: -0.003460915
-        outSlope: -0.0035762787
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.7040849
-        inSlope: -0.00667572
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.15663981
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.15663981
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.047277894
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.047277894
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.2693227
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.2693227
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.949049
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.949049
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
         value: 0.11774297
         inSlope: 0
         outSlope: -0.11923638
@@ -16573,455 +16148,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.21193936
-        inSlope: 0
-        outSlope: -0.00045793812
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.0021205556
-        inSlope: -0.0004773596
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.013923571
-        inSlope: 0
-        outSlope: -0.0000183993
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.00418522
-        inSlope: -0.000026236039
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.043956928
-        inSlope: 0
-        outSlope: 0.000016354932
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.04592092
-        inSlope: -0.000010903289
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.97619456
-        inSlope: 0
-        outSlope: 0.00008722631
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.99893403
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.2127232
-        inSlope: 0
-        outSlope: -0.0004688414
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.0013260143
-        inSlope: -0.00040350686
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.011417948
-        inSlope: 0
-        outSlope: -0.000015673477
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.001613452
-        inSlope: -0.000026150856
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.044508677
-        inSlope: 0
-        outSlope: 0.000013629111
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.045923084
-        inSlope: -0.0000054516445
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.9760315
-        inSlope: 0
-        outSlope: 0.00008722631
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.9989428
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.21359631
-        inSlope: 0
-        outSlope: -0.0004688414
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.00042938456
-        inSlope: -0.00047535784
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.010146056
-        inSlope: 0
-        outSlope: -0.000017717844
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.00031536387
-        inSlope: -0.00002368058
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.04479327
-        inSlope: 0
-        outSlope: 0.000013629111
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.045925356
-        inSlope: -0.000008177466
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.9758418
-        inSlope: 0
-        outSlope: 0.00008722631
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.9989447
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.20922945
-        inSlope: 0
-        outSlope: -0.0004688414
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.004889841
-        inSlope: -0.0004937145
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.010134831
-        inSlope: 0
-        outSlope: -0.000016354932
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.00030061975
-        inSlope: -0.000030090521
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.044817023
-        inSlope: 0
-        outSlope: 0.000013629111
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.04594751
-        inSlope: -0.000008177466
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.97678643
-        inSlope: 0
-        outSlope: 0.00008722631
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.9989319
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0
+        value: -0.63307035
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17032,7 +16159,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17040,7 +16167,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.24382369
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17051,7 +16178,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17059,7 +16186,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: -0.39495784
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17070,7 +16197,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17078,7 +16205,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.61950004
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17089,7 +16216,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17097,7 +16224,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.00038292547
+        value: 0.44850504
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17108,7 +16235,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17116,7 +16243,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.069119245
+        value: 0.66333777
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17127,7 +16254,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17135,7 +16262,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.0000003273908
+        value: 0.3528251
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17146,7 +16273,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17154,7 +16281,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.99760836
+        value: 0.48408765
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17165,7 +16292,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_L_UpLeg/Girl_L_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17173,7 +16300,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.3341837
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17184,7 +16311,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17192,7 +16319,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.5584618
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17203,7 +16330,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17211,7 +16338,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0
+        value: 0.27060598
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17222,7 +16349,7 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -17230,7 +16357,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.70937586
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -17241,7 +16368,83 @@ AnimationClip:
       m_PostInfinity: 2
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_R_UpLeg/Girl_R_but_1
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.14458613
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.090653494
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.18152335
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.96846586
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -18161,7 +17364,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.1551717
+        value: -0.028385095
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18180,7 +17383,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.7845847
+        value: -0.899628
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18199,7 +17402,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.5568394
+        value: 0.42477208
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18218,7 +17421,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.22422893
+        value: 0.09712146
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18237,7 +17440,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -0.019449165
+        value: -0.016806638
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18256,7 +17459,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.004485502
+        value: 0.010762561
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18275,7 +17478,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.0907552
+        value: 0.42013776
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18294,7 +17497,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.99567324
+        value: 0.90724087
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18313,7 +17516,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.029587528
+        value: 0.029217375
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18332,7 +17535,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.0025683783
+        value: -0.005318734
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18351,7 +17554,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.0026411482
+        value: 0.2660361
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18370,7 +17573,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.9995554
+        value: 0.96350545
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -18610,6 +17813,742 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_breast_0/Girl_L_breast_1/Girl_L_breast_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.08414873
+        inSlope: 0
+        outSlope: -0.012554227
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.086718366
+        inSlope: -0.016490618
+        outSlope: -0.016497027
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: -0.082706936
+        inSlope: 0.019366704
+        outSlope: 0.019401312
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.08414888
+        inSlope: -0.013828278
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0027812002
+        inSlope: 0
+        outSlope: -0.030968802
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.0021711092
+        inSlope: 0.021762291
+        outSlope: 0.021762757
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.001663743
+        inSlope: -0.025974888
+        outSlope: -0.025908928
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.0027812072
+        inSlope: -0.026288442
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0037873476
+        inSlope: 0
+        outSlope: -0.00503341
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.00065952644
+        inSlope: 0.020649554
+        outSlope: 0.020644156
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.0010410511
+        inSlope: -0.0009713544
+        outSlope: -0.001009088
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.0037873224
+        inSlope: -0.0068321824
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9964421
+        inSlope: 0
+        outSlope: -0.0009934107
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.99623024
+        inSlope: -0.0015894572
+        outSlope: -0.001384366
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.996572
+        inSlope: 0.0017304575
+        outSlope: 0.0014305115
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.9964421
+        inSlope: -0.0009536743
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.10488826
+        inSlope: 0
+        outSlope: -0.012616316
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.10745271
+        inSlope: -0.016440947
+        outSlope: -0.016453767
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: -0.10344986
+        inSlope: 0.019352283
+        outSlope: 0.019282103
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.10488873
+        inSlope: -0.013798475
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0034562664
+        inSlope: 0
+        outSlope: -0.02937663
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.002250714
+        inSlope: 0.017305912
+        outSlope: 0.01730908
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.0014229167
+        inSlope: -0.025328219
+        outSlope: -0.02525514
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.0034563253
+        inSlope: -0.02445653
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0031502203
+        inSlope: 0
+        outSlope: -0.010955069
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.00020039661
+        inSlope: 0.024511244
+        outSlope: 0.024506196
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.001369394
+        inSlope: -0.0059910333
+        outSlope: -0.0060182065
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.0031502277
+        inSlope: -0.011808239
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9944731
+        inSlope: 0
+        outSlope: -0.0012914339
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.9942076
+        inSlope: -0.0016887982
+        outSlope: -0.0018458213
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.9946327
+        inSlope: 0.002076549
+        outSlope: 0.0019073486
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.99447304
+        inSlope: -0.0011920929
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.072082885
+        inSlope: 0
+        outSlope: -0.0126038985
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.069511846
+        inSlope: -0.016552705
+        outSlope: -0.016540289
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.07352795
+        inSlope: 0.019366704
+        outSlope: 0.019282103
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.072083674
+        inSlope: -0.013828278
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.0035764289
+        inSlope: 0
+        outSlope: -0.028883804
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.0022565238
+        inSlope: 0.016327636
+        outSlope: 0.016325785
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.001368347
+        inSlope: -0.025104702
+        outSlope: -0.025029294
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.003576386
+        inSlope: -0.023965724
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.0030131913
+        inSlope: 0
+        outSlope: -0.01208003
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.00011255547
+        inSlope: 0.025147479
+        outSlope: 0.025139261
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.0014237905
+        inSlope: -0.0069765826
+        outSlope: -0.0070026144
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.0030131857
+        inSlope: -0.012751669
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.99738765
+        inSlope: 0
+        outSlope: 0.0010927517
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.99757856
+        inSlope: 0.0011920929
+        outSlope: 0.0011536384
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.99729115
+        inSlope: -0.0014997298
+        outSlope: -0.0011920929
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.9973876
+        inSlope: 0.00071525574
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.027396448
+        inSlope: 0
+        outSlope: 0.012308979
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.026281608
+        inSlope: -0.025117768
+        outSlope: -0.025120474
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.02963304
+        inSlope: 0.031901706
+        outSlope: 0.031791627
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.02739624
+        inSlope: 0.008031726
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.031964984
+        inSlope: 0
+        outSlope: -0.030199686
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.029437143
+        inSlope: 0.0016981114
+        outSlope: 0.0016908011
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.03177416
+        inSlope: -0.0044415076
+        outSlope: -0.004440546
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.03196478
+        inSlope: -0.027626753
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.70886695
+        inSlope: 0
+        outSlope: -0.0067551928
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: -0.7068074
+        inSlope: 0.01579523
+        outSlope: 0.016035574
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: -0.7055421
+        inSlope: -0.0024226406
+        outSlope: -0.0021457672
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: -0.7088668
+        inSlope: -0.007390976
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.70408475
+        inSlope: 0
+        outSlope: -0.005861123
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 0.6
+        value: 0.7063046
+        inSlope: 0.016887981
+        outSlope: 0.016727755
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.1166667
+        value: 0.7073349
+        inSlope: -0.003460915
+        outSlope: -0.0035762787
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1.3666667
+        value: 0.7040849
+        inSlope: -0.00667572
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_Neck_1/Girl_Neck_2/Girl_Neck_3/Girl_Head
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -21657,6 +21596,386 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: -0.10088657
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.88640714
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.24809347
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.37756318
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.5094983
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.317128
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.15214504
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.7852982
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.43744594
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.51608264
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.17588696
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.7150969
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.28694156
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: -0.6805244
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.6407384
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.20977439
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.20922945
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.010134831
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.044817023
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.97678643
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: 0.012999027
         inSlope: 0
         outSlope: 0
@@ -21802,6 +22121,82 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandIndex1/Girl_R_HandIndex2/Girl_R_HandIndex3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.21359631
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.010146056
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.04479327
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9758418
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandMiddle1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -21961,6 +22356,82 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0.21193936
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.013923571
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.043956928
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.97619456
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandPinky1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: -0.004597058
         inSlope: 0
         outSlope: 0
@@ -22113,6 +22584,82 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
+        value: 0.2127232
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.011417948
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.044508677
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.9760315
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
         value: -0.023726195
         inSlope: 0
         outSlope: 0
@@ -22258,6 +22805,82 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandRing1/Girl_R_HandRing2/Girl_R_HandRing3
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.15663981
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.x
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.047277894
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.y
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.2693227
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.z
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
+    classID: 4
+    script: {fileID: 0}
+  - curve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.949049
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    attribute: m_LocalRotation.w
+    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand/Girl_R_HandThumb1
     classID: 4
     script: {fileID: 0}
   - curve:
@@ -22790,614 +23413,6 @@ AnimationClip:
       m_RotationOrder: 4
     attribute: m_LocalRotation.w
     path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_knot_0/Girl_knot_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.63307035
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.24382369
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.39495784
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.61950004
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.44850504
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.66333777
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.3528251
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.48408765
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.14458613
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.090653494
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.18152335
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.96846586
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1/Girl_L_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.10088657
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.88640714
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.24809347
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.37756318
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.5094983
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.317128
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.15214504
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.7852982
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.28694156
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.6805244
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.6407384
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.20977439
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1/Girl_R_Hand
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.45291764
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: -0.4415289
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.13098788
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.7633872
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_R_Shoulder/Girl_R_Arm/Girl_R_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.30514035
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.x
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.48483187
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.y
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.28646734
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.z
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
-    classID: 4
-    script: {fileID: 0}
-  - curve:
-      serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 0.76796085
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    attribute: m_LocalRotation.w
-    path: Girl_root/Girl_Hips/Girl_Spine_0/Girl_Spine_1/Girl_Spine_2/Girl_Chest_1/Girl_Chest_2/Girl_L_Shoulder/Girl_L_Arm/Girl_L_ForeArm_1
     classID: 4
     script: {fileID: 0}
   m_EulerEditorCurves:
@@ -30186,7 +30201,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 11.005
+        value: 9.897
         inSlope: -0.6412055
         outSlope: -0.6412055
         tangentMode: 0
@@ -30205,7 +30220,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 69.507
+        value: 81.07201
         inSlope: -143.79077
         outSlope: -143.79077
         tangentMode: 0
@@ -30224,7 +30239,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 48.561
+        value: 50.230003
         inSlope: -0.20041358
         outSlope: -0.20041358
         tangentMode: 0
@@ -30984,7 +30999,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 70.624245
+        value: 49.355003
         inSlope: -0.0013732909
         outSlope: -0.0013732909
         tangentMode: 0
@@ -31003,7 +31018,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -147.33885
+        value: -162.22401
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -31022,7 +31037,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1.0757041
+        value: 11.834001
         inSlope: -0.0009441375
         outSlope: -0.0009441375
         tangentMode: 0
@@ -31041,7 +31056,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -2.266306
+        value: -2.266
         inSlope: -0.0010299683
         outSlope: -0.0010299683
         tangentMode: 0
@@ -31060,7 +31075,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.3097534
+        value: 0.31
         inSlope: 0.0000053644176
         outSlope: 0.0000053644176
         tangentMode: 0
@@ -31079,7 +31094,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 10.410062
+        value: 49.691
         inSlope: 0.00051498413
         outSlope: 0.00051498413
         tangentMode: 0
@@ -31098,7 +31113,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 3.390174
+        value: 3.39
         inSlope: -0.0012016295
         outSlope: -0.0012016295
         tangentMode: 0
@@ -31117,7 +31132,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.30367118
+        value: 0.30400002
         inSlope: -0.0010836124
         outSlope: -0.0010836124
         tangentMode: 0
@@ -31136,7 +31151,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 0.31177387
+        value: 30.880001
         inSlope: -0.0011318921
         outSlope: -0.0011318921
         tangentMode: 0
@@ -34272,7 +34287,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -35.158
+        value: -26.365002
         inSlope: -0.09293694
         outSlope: -0.09293694
         tangentMode: 0
@@ -34291,7 +34306,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: -75.852005
+        value: -84.582
         inSlope: -20.052309
         outSlope: -20.052309
         tangentMode: 0
@@ -34310,7 +34325,7 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 47.207
+        value: 51.692
         inSlope: 0.007825196
         outSlope: 0.007825196
         tangentMode: 0
@@ -34393,15 +34408,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.56132776
-        inSlope: 0.0000058877754
-        outSlope: 0.0000058877754
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34421,15 +34427,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.008666125
-        inSlope: 0.0000019033051
-        outSlope: 0.0000019033051
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34443,15 +34440,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 5.7700005
-        inSlope: 0.0000062802937
-        outSlope: 0.0000062802937
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 5.2670717
         inSlope: 0.0000062802937
         outSlope: 0.0000062802937
         tangentMode: 0
@@ -34591,15 +34579,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.050811574
-        inSlope: -0.00000042522822
-        outSlope: -0.00000042522822
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34619,15 +34598,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.03384021
-        inSlope: 0.000008308305
-        outSlope: 0.000008308305
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34641,15 +34611,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 5.7910004
-        inSlope: 0.0000010467156
-        outSlope: 0.0000010467156
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 5.2644954
         inSlope: 0.0000010467156
         outSlope: 0.0000010467156
         tangentMode: 0
@@ -34789,15 +34750,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.2647629
-        inSlope: -0.00001668203
-        outSlope: -0.00001668203
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34817,15 +34769,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.46793115
-        inSlope: -0.000011252193
-        outSlope: -0.000011252193
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -34839,15 +34782,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 5.7790003
-        inSlope: -0.00001674745
-        outSlope: -0.00001674745
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 5.2629776
         inSlope: -0.00001674745
         outSlope: -0.00001674745
         tangentMode: 0
@@ -34987,15 +34921,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: -0.16028021
-        inSlope: 0.0000041541525
-        outSlope: 0.0000041541525
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -35015,15 +34940,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 0.17771547
-        inSlope: 0.000008013916
-        outSlope: 0.000008013916
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -35037,15 +34953,6 @@ AnimationClip:
       - serializedVersion: 3
         time: 0
         value: 5.7850003
-        inSlope: -0.0000073270094
-        outSlope: -0.0000073270094
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 5.264011
         inSlope: -0.0000073270094
         outSlope: -0.0000073270094
         tangentMode: 0
@@ -35185,15 +35092,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 15.774482
-        inSlope: -0.000014654019
-        outSlope: -0.000014654019
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -35213,15 +35111,6 @@ AnimationClip:
         weightedMode: 0
         inWeight: 0.33333334
         outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
-        value: 10.423654
-        inSlope: 0.000014654019
-        outSlope: 0.000014654019
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
       m_PreInfinity: 2
       m_PostInfinity: 2
       m_RotationOrder: 4
@@ -35234,15 +35123,6 @@ AnimationClip:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 33.13389
-        inSlope: -0.00001674745
-        outSlope: -0.00001674745
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1.3666667
         value: 33.13389
         inSlope: -0.00001674745
         outSlope: -0.00001674745
