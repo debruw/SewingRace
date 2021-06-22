@@ -17,7 +17,7 @@ public class Line : MonoBehaviour
     private void Update()
     {
         if (isActivated && Input.GetMouseButton(0))
-        {            
+        {
             if (GameManager.Instance.obiRopeManager.obiRopes[0].restLength > 0)
             {
                 netRenderer1.material.SetFloat("_Fill", (Mathf.Abs(playerControl.transform.position.z) - Mathf.Abs(transform.position.z)) / range);
@@ -50,7 +50,6 @@ public class Line : MonoBehaviour
                 GameManager.Instance.playerControl.m_animator.SetBool("Knitting", false);
             }
         }
-        
     }
 
     public void OpenNet(PlayerControl pc)
@@ -65,7 +64,7 @@ public class Line : MonoBehaviour
         netRenderer1.material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
         netRenderer2.material.color = GameManager.Instance.obiRopeManager.solver.colors[1];
         playerControl = pc;
-        range = Mathf.Abs(transform.position.z + netRenderer1.GetComponent<Collider>().bounds.size.z - 3) - Mathf.Abs(playerControl.transform.position.z);
+        range = Mathf.Abs(transform.position.z + netRenderer1.GetComponent<Collider>().bounds.size.z - 2) - Mathf.Abs(playerControl.transform.position.z);
 
         isActivated = true;
     }

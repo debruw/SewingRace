@@ -301,6 +301,7 @@ namespace Obi
 
             // Or particles that have been already split.
             int index = elements.IndexOf(element);
+            
             if (index > 0 && elements[index - 1].particle2 != element.particle1)
                 return false;
 

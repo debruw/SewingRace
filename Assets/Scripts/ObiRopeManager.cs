@@ -76,6 +76,8 @@ public class ObiRopeManager : MonoBehaviour
         {
             item.ChangeLength(item.GetComponent<ObiRope>().restLength + addingRopeLenght);
             item.GetComponent<ObiRope>().RebuildConstraintsFromElements();
+            item.UpdateCursor();
+            item.UpdateSource();
         }
         LastColor = clr;
     }
@@ -114,18 +116,22 @@ public class ObiRopeManager : MonoBehaviour
 
     public void CutRope(int particleIndex)
     {
-        //obiRopes[0].DeactivateParticle(particleIndex);
-        //for (int i = particleIndex + 1; i < solver.pointCount; i++)
-        //{
-
-        //    obiRopes[0].DeactivateParticle(i);
-        //}
 
         foreach (ObiRope item in obiRopes)
         {
-            item.Tear(item.elements[particleIndex]);
+            ObiSolver.ParticleInActor pa = solver.particleToActor[particleIndex];
+
+            foreach (ObiRopeCursor cr in cursors)
+            {
+                cr.cursorMu = (float)pa.indexInActor / (float)item.activeParticleCount;
+                cr.UpdateCursor();
+            }
+
+            item.Tear(item.elements[pa.indexInActor]);
+
             item.RebuildConstraintsFromElements();
         }
+
     }
 
     //public GameObject[] puskuls;

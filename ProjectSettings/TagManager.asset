@@ -12,6 +12,7 @@ TagManager:
   - Ground
   - Danger
   - IsScaling
+  - Stitch
   layers:
   - Default
   - TransparentFX

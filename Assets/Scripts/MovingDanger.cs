@@ -15,6 +15,10 @@ public class MovingDanger : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (!isMoving)
+        {
+            return;
+        }
         if (Mathf.Abs(waypoints[current].position.x - transform.position.x) < WPradius)
         {
             current = Random.Range(0, waypoints.Length);

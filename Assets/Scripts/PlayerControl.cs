@@ -9,6 +9,7 @@ public class PlayerControl : MonoBehaviour
     [SerializeField] float xSpeed, zSpeed;
 
     public CharacterController controller;
+    public GameObject cam;
 
     public float speed = 12f;
     public float gravity = -9.81f;
@@ -145,19 +146,41 @@ public class PlayerControl : MonoBehaviour
         {
             other.GetComponent<Line>().OpenNet(this);
         }
-        else if (other.CompareTag("IsScaling"))
+        else if (other.CompareTag("Stitch"))
         {
+            other.transform.GetChild(0).GetComponent<BoxCollider>().enabled = true;
+            other.GetComponentInChildren<MeshRenderer>().material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
+            other.GetComponentInChildren<MeshRenderer>().material.SetFloat("_Fill", 1);
+            GameManager.Instance.playerControl.m_animator.SetBool("Knitting", true);
+            foreach (var item in GameManager.Instance.obiRopeManager.cursors)
+            {
+                item.ChangeLength(item.GetComponent<ObiRope>().restLength - .05f);
+            }
+        }
+        
+        if (other.CompareTag("IsScaling"))
+        {
+            Debug.Log("asdsadf");
             GameManager.Instance.isScalingRope = true;
-            transform.DOMoveX(0, .2f);
+            transform.DOMoveX(0, .3f);            
         }
         else if (other.CompareTag("Finish"))
         {
             GameManager.Instance.isGameOver = true;
             StartCoroutine(GameManager.Instance.WaitAndGameWin());
             m_animator.SetBool("Walking", false);
+            //cam.GetComponent<CameraControl>().isCamTurn = true;
             //Close rope, yarn and sticks
             GameManager.Instance.obiRopeManager.CloseYarnThings();
             m_animator.SetTrigger("Win");
+        }
+    }
+
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Stitch"))
+        {
+            GameManager.Instance.playerControl.m_animator.SetBool("Knitting", false);
         }
     }
 }
