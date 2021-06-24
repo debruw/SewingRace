@@ -65,9 +65,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8beead1d704b7f04592d0006291f9120, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  xSpeed: 10
-  zSpeed: 8
+  xSpeed: 5
+  zSpeed: 15
   controller: {fileID: 148653320654470219}
+  cam: {fileID: 0}
   speed: 1
   gravity: -9.81
   jumpHeight: 3
@@ -78,6 +79,9 @@ MonoBehaviour:
     m_Bits: 1024
   m_animator: {fileID: 1117782624176528014}
   FinishTransform: {fileID: 0}
+  collectParticle: {fileID: 9809075653177013, guid: c3644bf7b457092458304f4fa887b4e5,
+    type: 3}
+  fc: {fileID: 0}
 --- !u!143 &148653320654470219
 CharacterController:
   m_ObjectHideFlags: 0
@@ -93,7 +97,7 @@ CharacterController:
   m_Radius: 0.33
   m_SlopeLimit: 45
   m_StepOffset: 0.3
-  m_SkinWidth: 0.08
+  m_SkinWidth: 0.0001
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 1, z: 0}
 --- !u!114 &148653320654470218

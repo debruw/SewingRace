@@ -91,12 +91,13 @@ public class RopeSweepCut : MonoBehaviour
             // project the both ends of the element to screen space.
             Vector3 screenPos1 = cam.WorldToScreenPoint(rope.solver.positions[rope.elements[i].particle1]);
             Vector3 screenPos2 = cam.WorldToScreenPoint(rope.solver.positions[rope.elements[i].particle2]);
-
+            Debug.Log("asf");
             // test if there's an intersection:
             if (SegmentSegmentIntersection(screenPos1, screenPos2, lineStart, lineEnd, out float r, out float s))
             {
                 cut = true;
                 rope.Tear(rope.elements[i]);
+                Debug.Log("qerwer");
             }
         }
 

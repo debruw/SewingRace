@@ -96,7 +96,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 2534964839176971238, guid: 19110f6ac26fd484684dd42abfa5dd6d, type: 3}
+  m_Mesh: {fileID: -7387706064836869012, guid: bc558767bf1a6ed4d9a3785bf6632eaa, type: 3}
 --- !u!114 &6086695492086394489
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -110,10 +110,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   isMoving: 1
+  isTransparent: 0
   waypoints:
   - {fileID: 8413828388507698813}
   - {fileID: 8413828388780014496}
   speed: 1
+  rend1: {fileID: 0}
+  rend2: {fileID: 0}
 --- !u!95 &637899119639408395
 Animator:
   serializedVersion: 3

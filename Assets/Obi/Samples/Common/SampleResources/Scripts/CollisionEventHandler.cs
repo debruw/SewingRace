@@ -26,15 +26,14 @@ public class CollisionEventHandler : MonoBehaviour
         solver.OnCollision -= Solver_OnCollision;
     }
 
-    float distance = 1f;
-    void Solver_OnCollision(object sender, ObiSolver.ObiCollisionEventArgs e)
+    void Solver_OnCollision(object sender, ObiSolver.ObiCollisionEventArgs contacts)
     {
-        frame = e;
+        frame = contacts;
         contactCount = frame.contacts.Count;
 
         var world = ObiColliderWorld.GetInstance();
-        
-        foreach (Oni.Contact contact in e.contacts)
+
+        foreach (Oni.Contact contact in contacts.contacts)
         {
             // this one is an actual collision:
             if (contact.distance < 0.0001)
@@ -44,11 +43,12 @@ public class CollisionEventHandler : MonoBehaviour
                 // if this collider is tagged as "Saw":
                 if (col != null && col.gameObject.CompareTag("Saw"))
                 {
+                    //solver.colors[contact.bodyA] = Color.yellow;
                     if (isLettingCut)
                     {
                         // get the index of the particle involved in the contact:
                         int particleIndex = solver.simplices[contact.bodyA];
-
+                        
                         GameManager.Instance.obiRopeManager.CutRope(particleIndex);
                         isLettingCut = false;
                         StartCoroutine(WaitAndAllowCut());
@@ -58,6 +58,7 @@ public class CollisionEventHandler : MonoBehaviour
             }
         }
     }
+
     bool isLettingCut = true;
     IEnumerator WaitAndAllowCut()
     {

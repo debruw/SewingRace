@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using TapticPlugin;
 
 public class ObiRopeManager : MonoBehaviour
 {
@@ -17,8 +18,6 @@ public class ObiRopeManager : MonoBehaviour
     public GameObject yarnBall, stick1, stick2;
     public ObiRope[] obiRopes;
 
-    //int lastIndice;
-    //float magnitude = 100;
     // Update is called once per frame
     void Update()
     {
@@ -65,7 +64,7 @@ public class ObiRopeManager : MonoBehaviour
         {
             for (int i = 0; i < item.activeParticleCount; i++)
             {
-                solver.colors[i] = Color.Lerp(LastColor, clr, (float)i / (float)item.activeParticleCount);
+                solver.colors[i] = Color.Lerp(clr, LastColor, (float)i / (float)item.activeParticleCount);
                 //solver.colors[i + 100] = Color.Lerp(LastColor, clr, (float)i / (float)item.activeParticleCount);
                 //solver.colors[i + 200] = Color.Lerp(LastColor, clr, (float)i / (float)item.activeParticleCount);
             }
@@ -95,6 +94,8 @@ public class ObiRopeManager : MonoBehaviour
             {
                 item.ChangeLength(GetComponent<ObiRope>().restLength - .03f);
                 item.GetComponent<ObiRope>().RebuildConstraintsFromElements();
+                item.UpdateCursor();
+                item.UpdateSource();
             }
             ropeLength -= .03f;
             if (obiRopes[0].restLength <= 0)
@@ -114,23 +115,38 @@ public class ObiRopeManager : MonoBehaviour
         }
     }
 
+    float distance = 50;
+    int index;
+    public bool isCutted;
     public void CutRope(int particleIndex)
     {
+        Debug.Log("Cut Rope");
+        isCutted = true;
 
-        foreach (ObiRope item in obiRopes)
+        ObiSolver.ParticleInActor pa = solver.particleToActor[particleIndex];
+
+        //solver.colors[particleIndex] = Color.black;
+
+        obiRopes[0].Tear(obiRopes[0].elements[pa.indexInActor]);
+
+        //for (int i = pa.indexInActor + 1; i < obiRopes[0].elements.Count; i++)
+        //{
+        //    obiRopes[0].DeactivateParticle(solver.particleToActor[obiRopes[0].elements[i].particle1].indexInActor);            
+        //    obiRopes[0].elements.RemoveAt(i);
+        //    obiRopes[0].DeactivateParticle(solver.particleToActor[obiRopes[0].elements[i].particle2].indexInActor);
+        //}
+
+        obiRopes[0].RebuildConstraintsFromElements();
+
+        foreach (ObiRopeCursor cr in cursors)
         {
-            ObiSolver.ParticleInActor pa = solver.particleToActor[particleIndex];
-
-            foreach (ObiRopeCursor cr in cursors)
-            {
-                cr.cursorMu = (float)pa.indexInActor / (float)item.activeParticleCount;
-                cr.UpdateCursor();
-            }
-
-            item.Tear(item.elements[pa.indexInActor]);
-
-            item.RebuildConstraintsFromElements();
+            cr.cursorMu = (float)pa.indexInActor / (float)obiRopes[0].activeParticleCount;
+            cr.UpdateCursor();
         }
+
+        SoundManager.Instance.playSound(SoundManager.GameSounds.Cut);
+        if (PlayerPrefs.GetInt("VIBRATION") == 1)
+            TapticManager.Impact(ImpactFeedback.Medium);
 
     }
 
@@ -139,7 +155,7 @@ public class ObiRopeManager : MonoBehaviour
     {
         foreach (ObiRope item in obiRopes)
         {
-            item.gameObject.SetActive(false);
+            item.GetComponent<MeshRenderer>().enabled = false;
         }
         yarnBall.SetActive(false);
         //foreach (var item in puskuls)

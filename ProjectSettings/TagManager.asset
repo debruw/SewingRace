@@ -13,6 +13,8 @@ TagManager:
   - Danger
   - IsScaling
   - Stitch
+  - Finishcube
+  - Destroyer
   layers:
   - Default
   - TransparentFX

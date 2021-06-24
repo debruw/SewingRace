@@ -7,7 +7,6 @@ public class Line : MonoBehaviour
 {
     [SerializeField] MeshRenderer netRenderer1, netRenderer2;
     float counter;
-    [SerializeField] float LengthFactor = 1;
     [SerializeField] float ropeLength;
     PlayerControl playerControl;
     [SerializeField] Collider[] twoOther;
@@ -24,7 +23,14 @@ public class Line : MonoBehaviour
                 netRenderer2.material.SetFloat("_Fill", (Mathf.Abs(playerControl.transform.position.z) - Mathf.Abs(transform.position.z)) / range);
                 foreach (var item in GameManager.Instance.obiRopeManager.cursors)
                 {
-                    item.ChangeLength(item.GetComponent<ObiRope>().restLength - .02f);
+                    if (GameManager.Instance.obiRopeManager.isCutted)
+                    {
+                        item.ChangeLength(item.GetComponent<ObiRope>().restLength - (.06f * Random.Range(2f, 3f))); 
+                    }
+                    else
+                    {
+                        item.ChangeLength(item.GetComponent<ObiRope>().restLength - (.06f * Random.Range(0f, 1f)));
+                    }
                 }
             }
             else
@@ -64,7 +70,7 @@ public class Line : MonoBehaviour
         netRenderer1.material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
         netRenderer2.material.color = GameManager.Instance.obiRopeManager.solver.colors[1];
         playerControl = pc;
-        range = Mathf.Abs(transform.position.z + netRenderer1.GetComponent<Collider>().bounds.size.z - 2) - Mathf.Abs(playerControl.transform.position.z);
+        range = Mathf.Abs(transform.position.z + netRenderer1.GetComponent<Collider>().bounds.size.z - 1) - Mathf.Abs(playerControl.transform.position.z);
 
         isActivated = true;
     }

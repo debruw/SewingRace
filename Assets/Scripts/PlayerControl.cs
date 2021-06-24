@@ -16,7 +16,7 @@ public class PlayerControl : MonoBehaviour
     public float jumpHeight = 3f;
 
     public Transform groundCheck;
-    public float groundDistance = 0.4f;
+    public float groundDistance = 0.3f;
     public LayerMask groundMask;
 
     Vector3 velocity;
@@ -34,6 +34,15 @@ public class PlayerControl : MonoBehaviour
 
     private void Update()
     {
+        if (!GameManager.Instance.isGameStarted)
+        {
+            if (Input.GetMouseButtonDown(0))
+            {
+                GameManager.Instance.TapToStartButtonClick();
+                m_animator.SetBool("Walking", true);
+            }
+            return;
+        }
         if (!GameManager.Instance.isGameStarted || GameManager.Instance.isGameOver)
         {
             return;
@@ -42,17 +51,13 @@ public class PlayerControl : MonoBehaviour
 
         if (isGrounded && velocity.y < 0)
         {
-            velocity.y = -2f;
+            velocity.y = -5f;
         }
 #if UNITY_EDITOR
         if (Input.GetMouseButton(0))
         {
             Vector3 move = Vector3.right * Input.GetAxis("Mouse X") * xSpeed + Vector3.forward * zSpeed;
 
-            if (GameManager.Instance.isScalingRope)
-            {
-                move.x = 0;
-            }
             controller.Move(move * speed * Time.deltaTime);
 
             if (GameManager.Instance.isScalingRope)
@@ -84,11 +89,6 @@ public class PlayerControl : MonoBehaviour
             {
                 move += Vector3.right * Input.GetAxis("Mouse X") * xSpeed;
             }
-
-            if (GameManager.Instance.isScalingRope)
-            {
-                move.x = 0;
-            }
             controller.Move(move * speed * Time.deltaTime);
 
             if (GameManager.Instance.isScalingRope)
@@ -112,14 +112,22 @@ public class PlayerControl : MonoBehaviour
 
         if (Input.GetMouseButtonDown(0))
         {
+            if (GameManager.Instance.currentLevel == 1 && GameManager.Instance.Tuto1.activeSelf)
+            {
+                GameManager.Instance.Tuto1.SetActive(false);
+            }
+            if (GameManager.Instance.currentLevel == 1 && GameManager.Instance.Tuto2.activeSelf)
+            {
+                GameManager.Instance.Tuto2.SetActive(false);
+            }
             m_animator.SetBool("Walking", true);
         }
-        else if (Input.GetMouseButtonUp(0))
+        if (Input.GetMouseButtonUp(0))
         {
             m_animator.SetBool("Walking", false);
         }
 
-        if (transform.position.y < -3)
+        if (transform.position.y < -5)
         {
             //Lose
             StartCoroutine(GameManager.Instance.WaitAndGameLose());
@@ -135,12 +143,16 @@ public class PlayerControl : MonoBehaviour
         GameManager.Instance.RoadSlider.value = (totalRoadLength - (FinishTransform.position.z - transform.position.z)) / totalRoadLength;
     }
 
+    public GameObject collectParticle;
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("NewYarn"))
         {
+            GameObject go = Instantiate(collectParticle, other.transform.position, Quaternion.identity);
+            go.GetComponent<ParticleSystem>().startColor = other.GetComponent<NewYarn>().color;
             Destroy(other.gameObject);
             GameManager.Instance.obiRopeManager.AddNewRope(other.GetComponent<NewYarn>().color);
+            SoundManager.Instance.playSound(SoundManager.GameSounds.Collect);
         }
         else if (other.CompareTag("Line"))
         {
@@ -149,20 +161,25 @@ public class PlayerControl : MonoBehaviour
         else if (other.CompareTag("Stitch"))
         {
             other.transform.GetChild(0).GetComponent<BoxCollider>().enabled = true;
-            other.GetComponentInChildren<MeshRenderer>().material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
-            other.GetComponentInChildren<MeshRenderer>().material.SetFloat("_Fill", 1);
+            other.transform.GetChild(0).GetComponentInChildren<MeshRenderer>().material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
+            other.transform.GetChild(1).GetComponentInChildren<MeshRenderer>().material.color = GameManager.Instance.obiRopeManager.solver.colors[0];
+            other.transform.GetChild(0).GetComponentInChildren<MeshRenderer>().material.SetFloat("_Fill", 1);
+            other.transform.GetChild(1).GetComponentInChildren<MeshRenderer>().material.SetFloat("_Fill", 1);
             GameManager.Instance.playerControl.m_animator.SetBool("Knitting", true);
             foreach (var item in GameManager.Instance.obiRopeManager.cursors)
             {
                 item.ChangeLength(item.GetComponent<ObiRope>().restLength - .05f);
             }
         }
-        
+
         if (other.CompareTag("IsScaling"))
         {
             Debug.Log("asdsadf");
+            if (GameManager.Instance.currentLevel == 1)
+            {
+                GameManager.Instance.Tuto2.SetActive(true);
+            }
             GameManager.Instance.isScalingRope = true;
-            transform.DOMoveX(0, .3f);            
         }
         else if (other.CompareTag("Finish"))
         {
@@ -174,8 +191,15 @@ public class PlayerControl : MonoBehaviour
             GameManager.Instance.obiRopeManager.CloseYarnThings();
             m_animator.SetTrigger("Win");
         }
+
+        if (other.CompareTag("Finishcube"))
+        {
+            fc = other.GetComponentInChildren<FinishCube>();
+        }
     }
 
+    [HideInInspector]
+    public FinishCube fc;
     private void OnTriggerExit(Collider other)
     {
         if (other.CompareTag("Stitch"))
