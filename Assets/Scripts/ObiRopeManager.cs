@@ -125,17 +125,7 @@ public class ObiRopeManager : MonoBehaviour
 
         ObiSolver.ParticleInActor pa = solver.particleToActor[particleIndex];
 
-        //solver.colors[particleIndex] = Color.black;
-
         obiRopes[0].Tear(obiRopes[0].elements[pa.indexInActor]);
-
-        //for (int i = pa.indexInActor + 1; i < obiRopes[0].elements.Count; i++)
-        //{
-        //    obiRopes[0].DeactivateParticle(solver.particleToActor[obiRopes[0].elements[i].particle1].indexInActor);            
-        //    obiRopes[0].elements.RemoveAt(i);
-        //    obiRopes[0].DeactivateParticle(solver.particleToActor[obiRopes[0].elements[i].particle2].indexInActor);
-        //}
-
         obiRopes[0].RebuildConstraintsFromElements();
 
         foreach (ObiRopeCursor cr in cursors)

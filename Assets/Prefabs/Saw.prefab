@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 4537846661423439862}
   m_Layer: 0
   m_Name: SawRound
-  m_TagString: Danger
+  m_TagString: Saw
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96,7 +96,7 @@ MeshCollider:
   serializedVersion: 4
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: -7387706064836869012, guid: bc558767bf1a6ed4d9a3785bf6632eaa, type: 3}
+  m_Mesh: {fileID: 2534964839176971238, guid: 19110f6ac26fd484684dd42abfa5dd6d, type: 3}
 --- !u!114 &6086695492086394489
 MonoBehaviour:
   m_ObjectHideFlags: 0
