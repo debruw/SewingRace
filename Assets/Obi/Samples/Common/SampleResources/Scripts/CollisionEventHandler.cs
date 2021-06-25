@@ -66,65 +66,65 @@ public class CollisionEventHandler : MonoBehaviour
         isLettingCut = true;
     }
 
-    void OnDrawGizmos()
-    {
-        if (solver == null || frame == null || frame.contacts == null) return;
+    //void OnDrawGizmos()
+    //{
+    //    if (solver == null || frame == null || frame.contacts == null) return;
 
-        Gizmos.matrix = solver.transform.localToWorldMatrix;
+    //    Gizmos.matrix = solver.transform.localToWorldMatrix;
 
-        contactCount = frame.contacts.Count;
+    //    contactCount = frame.contacts.Count;
 
-        for (int i = 0; i < frame.contacts.Count; ++i)
-        {
-            var contact = frame.contacts.Data[i];
+    //    for (int i = 0; i < frame.contacts.Count; ++i)
+    //    {
+    //        var contact = frame.contacts.Data[i];
 
-            //if (contact.distance > 0.001f) continue;
+    //        //if (contact.distance > 0.001f) continue;
 
-            Gizmos.color = (contact.distance <= 0) ? Color.red : Color.green;
+    //        Gizmos.color = (contact.distance <= 0) ? Color.red : Color.green;
 
-            //Gizmos.color = new Color(((i * 100) % 255) / 255.0f, ((i * 50) % 255) / 255.0f, ((i * 20) % 255) / 255.0f);
+    //        //Gizmos.color = new Color(((i * 100) % 255) / 255.0f, ((i * 50) % 255) / 255.0f, ((i * 20) % 255) / 255.0f);
 
-            Vector3 point = frame.contacts.Data[i].pointB;
+    //        Vector3 point = frame.contacts.Data[i].pointB;
 
-            Gizmos.DrawSphere(point, 0.01f);
+    //        Gizmos.DrawSphere(point, 0.01f);
 
-            Gizmos.DrawRay(point, contact.normal * contact.distance);
+    //        Gizmos.DrawRay(point, contact.normal * contact.distance);
 
-            Gizmos.color = Color.cyan;
-            Gizmos.DrawRay(point, contact.tangent * contact.tangentImpulse + contact.bitangent * contact.bitangentImpulse);
+    //        Gizmos.color = Color.cyan;
+    //        Gizmos.DrawRay(point, contact.tangent * contact.tangentImpulse + contact.bitangent * contact.bitangentImpulse);
 
-        }
+    //    }
 
-        //for (int i = 0; i < frame.contacts.Count; ++i)
-        //{
-        //    var contact = frame.contacts.Data[i];
+    //    //for (int i = 0; i < frame.contacts.Count; ++i)
+    //    //{
+    //    //    var contact = frame.contacts.Data[i];
 
-        //    //if (contact.distance > 0.001f) continue;
+    //    //    //if (contact.distance > 0.001f) continue;
 
-        //    Gizmos.color = (contact.distance <= 0) ? Color.red : Color.green;
+    //    //    Gizmos.color = (contact.distance <= 0) ? Color.red : Color.green;
 
-        //    //Gizmos.color = new Color(((i * 100) % 255) / 255.0f, ((i * 50) % 255) / 255.0f, ((i * 20) % 255) / 255.0f);
+    //    //    //Gizmos.color = new Color(((i * 100) % 255) / 255.0f, ((i * 50) % 255) / 255.0f, ((i * 20) % 255) / 255.0f);
 
-        //    Vector3 point = Vector3.zero;//frame.contacts.Data[i].point;
+    //    //    Vector3 point = Vector3.zero;//frame.contacts.Data[i].point;
 
-        //    int simplexStart = solver.simplexCounts.GetSimplexStartAndSize(contact.bodyB, out int simplexSize);
+    //    //    int simplexStart = solver.simplexCounts.GetSimplexStartAndSize(contact.bodyB, out int simplexSize);
 
-        //    float radius = 0;
-        //    for (int j = 0; j < simplexSize; ++j)
-        //    {
-        //        point += (Vector3)solver.positions[solver.simplices[simplexStart + j]] * contact.pointB[j];
-        //        radius += solver.principalRadii[solver.simplices[simplexStart + j]].x * contact.pointB[j];
-        //    }
+    //    //    float radius = 0;
+    //    //    for (int j = 0; j < simplexSize; ++j)
+    //    //    {
+    //    //        point += (Vector3)solver.positions[solver.simplices[simplexStart + j]] * contact.pointB[j];
+    //    //        radius += solver.principalRadii[solver.simplices[simplexStart + j]].x * contact.pointB[j];
+    //    //    }
 
-        //    Vector3 normal = contact.normal;
+    //    //    Vector3 normal = contact.normal;
 
-        //    //Gizmos.DrawSphere(point + normal.normalized * frame.contacts[i].distance, 0.01f);
+    //    //    //Gizmos.DrawSphere(point + normal.normalized * frame.contacts[i].distance, 0.01f);
 
-        //    Gizmos.DrawSphere(point + normal * radius, 0.01f);
+    //    //    Gizmos.DrawSphere(point + normal * radius, 0.01f);
 
-        //    Gizmos.DrawRay(point + normal * radius, normal.normalized * contact.distance);
-        //}
-    }
+    //    //    Gizmos.DrawRay(point + normal * radius, normal.normalized * contact.distance);
+    //    //}
+    //}
 
 }
 
