@@ -11,7 +11,6 @@ public class PlayerControl : MonoBehaviour
     public CharacterController controller;
     public GameObject cam;
 
-    public float speed = 12f;
     public float gravity = -9.81f;
     public float jumpHeight = 3f;
 
@@ -58,7 +57,7 @@ public class PlayerControl : MonoBehaviour
         {
             Vector3 move = Vector3.right * Input.GetAxis("Mouse X") * xSpeed + Vector3.forward * zSpeed;
 
-            controller.Move(move * speed * Time.deltaTime);
+            controller.Move(move * Time.deltaTime);
 
             if (GameManager.Instance.isScalingRope)
             {
@@ -174,7 +173,7 @@ public class PlayerControl : MonoBehaviour
 
         if (other.CompareTag("IsScaling"))
         {
-            Debug.Log("asdsadf");
+            Debug.Log(GameManager.Instance.obiRopeManager.obiRopes[0].restLength);
             if (GameManager.Instance.currentLevel == 1)
             {
                 GameManager.Instance.Tuto2.SetActive(true);

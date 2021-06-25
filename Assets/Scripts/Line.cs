@@ -25,7 +25,7 @@ public class Line : MonoBehaviour
                 {
                     if (GameManager.Instance.obiRopeManager.isCutted)
                     {
-                        item.ChangeLength(item.GetComponent<ObiRope>().restLength - (.06f * Random.Range(2f, 3f))); 
+                        item.ChangeLength(item.GetComponent<ObiRope>().restLength - (.06f * Random.Range(2f, 3f)));
                     }
                     else
                     {
