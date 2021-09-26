@@ -17,7 +17,7 @@ public class Line : MonoBehaviour
     {
         if (isActivated && Input.GetMouseButton(0))
         {
-            if (GameManager.Instance.obiRopeManager.obiRopes[0].restLength > 0)
+            if (GameManager.Instance.obiRopeManager.obiRope.restLength > 0)
             {
                 netRenderer1.material.SetFloat("_Fill", (Mathf.Abs(playerControl.transform.position.z) - Mathf.Abs(transform.position.z)) / range);
                 netRenderer2.material.SetFloat("_Fill", (Mathf.Abs(playerControl.transform.position.z) - Mathf.Abs(transform.position.z)) / range);

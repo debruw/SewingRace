@@ -65,7 +65,7 @@ public class PlayerControl : MonoBehaviour
                 {
                     item.ChangeLength(item.GetComponent<ObiRope>().restLength - .01f);
                 }
-                if (GameManager.Instance.obiRopeManager.obiRopes[0].restLength <= 0)
+                if (GameManager.Instance.obiRopeManager.obiRope.restLength <= 0)
                 {
                     //WIN
                     StartCoroutine(GameManager.Instance.WaitAndGameWin());
@@ -88,7 +88,7 @@ public class PlayerControl : MonoBehaviour
             {
                 move += Vector3.right * Input.GetAxis("Mouse X") * xSpeed;
             }
-            controller.Move(move * speed * Time.deltaTime);
+            controller.Move(move * Time.deltaTime);
 
             if (GameManager.Instance.isScalingRope)
             {
@@ -173,7 +173,7 @@ public class PlayerControl : MonoBehaviour
 
         if (other.CompareTag("IsScaling"))
         {
-            Debug.Log(GameManager.Instance.obiRopeManager.obiRopes[0].restLength);
+            Debug.Log(GameManager.Instance.obiRopeManager.obiRope.restLength);
             if (GameManager.Instance.currentLevel == 1)
             {
                 GameManager.Instance.Tuto2.SetActive(true);
